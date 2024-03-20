@@ -1,5 +1,5 @@
 import type {Competition} from "~/models/competition.model";
-import type {Image} from "~/models/strapi.model";
+import type {Image, Meta} from "~/models/strapi.model";
 
 export interface Player {
   id: number

@@ -1,5 +1,8 @@
+<script setup lang="ts">
+
+</script>
 <template>
-    <main>
+    <main class="main">
         <header>
             the nav
         </header>
@@ -9,3 +12,9 @@
         </footer>
     </main>
 </template>
+
+<style>
+    .main {
+        background-color: rgb(255, 225, 225);
+    }
+</style>
