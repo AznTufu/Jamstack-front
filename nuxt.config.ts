@@ -3,7 +3,8 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
   modules: [
     '@nuxtjs/strapi',
-    '@nuxt/ui'
+    '@nuxt/ui',
+    '@nuxt/image',
   ],
   strapi: {
     url: process.env.STRAPI_URL || 'http://localhost:1337',
