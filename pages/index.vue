@@ -44,7 +44,7 @@
                 },
             }
         }),  {
-            watch: [filters],
+            watch: [filters, search],
         }
     )
 
